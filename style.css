@@ -236,7 +236,11 @@ header h1 {
 }
 
 .hero-horarios {
-  max-width: 38%;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  padding: 16px 18px;
+  border-radius: 14px;
+  color: white;
 }
 
 
@@ -545,16 +549,32 @@ iframe {
     text-align: center;
   }
 }
-@media (max-width: 600px) {
-  .horarios-cultos {
-    max-width: 100%;
-    padding: 18px;
+
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 20px 60px;
   }
 
-  .horarios-header {
-    font-size: 1.15rem;
+  .hero-content,
+  .hero-horarios {
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: 24px;
+  }
+
+  .hero-horarios {
+    margin-top: 20px;
   }
 }
+
 
 
 
