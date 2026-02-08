@@ -299,6 +299,7 @@ section {
   margin: 0 auto 40px;
   line-height: 1.7;
   opacity: 0.85;
+  text-align: justify;
 }
 
 .redes-cards {
@@ -573,5 +574,6 @@ iframe {
     text-align: center;
   }
 }
+
 
 
