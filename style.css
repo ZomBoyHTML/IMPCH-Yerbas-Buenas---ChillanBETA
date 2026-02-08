@@ -222,7 +222,62 @@ header h1 {
   object-fit: contain;
   flex-shrink: 0;
 }
+.horarios-cultos {
+  background: linear-gradient(135deg, #1f2a44, #2d3e66);
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 20px 22px;
+  max-width: 380px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
 
+.horarios-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.horarios-header .icono {
+  font-size: 1.6rem;
+}
+
+.horarios-cultos ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horarios-cultos li {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 12px;
+}
+
+.horarios-cultos li strong {
+  font-size: 1.05rem;
+}
+
+.horarios-cultos li span {
+  font-size: 0.95rem;
+  opacity: 0.95;
+}
+
+/* Domingo destacado */
+.horarios-cultos .domingo {
+  background: linear-gradient(135deg, #f6c453, #f0a500);
+  color: #1a1a1a;
+}
+
+.horarios-cultos .domingo span {
+  font-weight: 500;
+}
 /* CORTE */
 .corte {
   position: absolute;
@@ -528,4 +583,5 @@ iframe {
     text-align: center;
   }
 }
+
 
