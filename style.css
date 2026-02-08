@@ -236,10 +236,7 @@ header h1 {
 }
 
 .hero-horarios {
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(6px);
-  padding: 16px 18px;
-  border-radius: 14px;
+  max-width: 38%;
   color: white;
 }
 
@@ -574,6 +571,7 @@ iframe {
     margin-top: 20px;
   }
 }
+
 
 
 
