@@ -583,5 +583,15 @@ iframe {
     text-align: center;
   }
 }
+@media (max-width: 600px) {
+  .horarios-cultos {
+    max-width: 100%;
+    padding: 18px;
+  }
+
+  .horarios-header {
+    font-size: 1.15rem;
+  }
+}
 
 
