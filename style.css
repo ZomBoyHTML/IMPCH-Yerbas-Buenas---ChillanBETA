@@ -346,6 +346,21 @@ section {
   background: #e1443a;
 }
 
+/* INSTAGRAM */
+.red-card.instagram {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+}
+
+.red-card:hover {
+  transform: translateY(-5px);
+}
+
 /* GALERÍA */
 .collage {
   display: grid;
@@ -575,6 +590,7 @@ iframe {
     text-align: center;
   }
 }
+
 
 
 
